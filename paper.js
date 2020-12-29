@@ -13,7 +13,7 @@ class paper
 		this.x=x;
 		this.y=y;
 		this.r=r
-		this.body=Bodies.circle(this.x, this.y, this.r/2, options)
+		this.body=Bodies.circle(this.x, this.y, this.r, options)
 		World.add(world, this.body);
 
 	}
